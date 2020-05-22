@@ -1,6 +1,3 @@
-# Level 1
-
-
 def solution(n):
     if n < 0 or n > 10000:
         return 0

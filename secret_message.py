@@ -1,5 +1,3 @@
-# Level 2.1
-
 def validation(l, t):
     if not l or len(l)>100 or (t <1 or t >250) or sum(l)<t:
         return False

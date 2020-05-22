@@ -1,6 +1,3 @@
-# Level 2.2
-
-
 def solution(total_lambs):
     try:
         int(total_lambs)

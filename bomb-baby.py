@@ -1,14 +1,14 @@
-def answer(M, F):
-    m, f = long(M), long(F)
+def answer(x, y):
+    x, y = int(x), int(y)
     total = 0
-    while not (m == 1 and f == 1):
-        if f <= 0 or m <= 0:
-            return "impossible"
-        if f == 1:
-            return str(total + m - 1)
+    while not (x == 1 and y == 1):
+        if y <= 0 or x <= 0:
+            return "ixpossible"
+        if y == 1:
+            return str(total + x - 1)
         else:
-            total += long(m/f)
-            m, f = f, m % f
+            total += int(x/y)
+            x, y = y, x % y
     return str(total)
 
 print(answer('4', '7'))
